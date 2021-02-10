@@ -1,0 +1,24 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+	
+}
+
+body {
+    text-align: center;
+}
+
+#box,#box1,#box2,#box3,#box4,#box4_2{
+    animation: sunn 3s infinite linear;
+     transform-origin:center;
+    transform-box: fill-box;
+}
+@keyframes sunn {
+    from{
+        transform: rotateZ(0deg);
+    }
+    to {
+        transform: rotateZ(360deg);
+    }
+}
