@@ -22,48 +22,13 @@ body {
         transform: rotateZ(360deg);
     }
 }
-/* #myBtn { */
-	/* display: none; */
-	/* position: fixed; */
-	/* bottom: 20px; */
-	/* right: 40px; */
-	/* z-index: 99; */
-	/* border: none; */
-	/* color: #fff; */
-	/* border: none; */
-	/* background: #00abff; */
-	/* padding: 10px; */
-	/* border-radius:10px; */
-/* } */
-	/* #myBtn:hover { */
-		/* background:#606060; */
-	/* } */
-	
-	
-	
-	
-	
-	
-	/*#man {
-    animation: men 1s infinite linear;
-    transform-origin: center;
-    transform-box: fill-box;
-}*/
 
 #loc,#loc1,#loc2,#loc3 {
     animation: loc 3s infinite linear;
     transform-origin: center;
     transform-box: fill-box;
 }
-/*
-@keyframes men{
-    from{
-        transform: translateY(0%);
-    }
-    to {
-        transform: translateY(1%);
-    }
-}*/
+
 
 @keyframes loc{
     from {
